@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1513304052 source:d:\程序\求三个整数a，b，c中的最大值并输出\main.c
+	<stdio.h>
+	<stdlib.h>
+

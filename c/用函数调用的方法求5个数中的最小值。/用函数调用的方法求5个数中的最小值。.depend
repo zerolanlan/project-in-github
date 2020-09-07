@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1513307026 source:d:\程序\用函数调用的方法求5个数中的最小值。\main.c
+	<stdio.h>
+	<stdlib.h>
+

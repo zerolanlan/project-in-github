@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1509955859 source:d:\程序\平均值2\main.c
+	<stdio.h>
+	<stdlib.h>
+
