@@ -1,0 +1,10 @@
+package 数组;
+
+public class 静态初始化 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
