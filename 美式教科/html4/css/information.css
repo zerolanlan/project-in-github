@@ -1,0 +1,144 @@
+ body{
+	background-color:#fff;
+	color: #666;
+}
+a{
+	transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+}
+.warp{
+	width: 1200px;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.in-block{
+	display: inline-block;
+}
+
+/*头部*/
+.header{
+	width: 100%;
+	height: 80px;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background-color:#46a7f8;
+	position:fixed; 
+	z-index: 99;
+	top:0;
+	left: 0;
+}
+.logo{
+    width: 169px;
+    height: 44px;
+    background-color: red;
+    float: left;
+    background: url(../images/logo.png) no-repeat;
+    margin-top: 18px;
+}
+.header__nav{
+	float:right;
+	height: 80px;
+	line-height: 80px;
+}
+.header__nav .nav-con{
+	float: left;
+}
+.header__nav .nav-con .nav-linear{
+	position: relative;
+	display:inline-block;
+	margin: 0px 15px;
+	font-size: 15px;
+	outline:none;
+	transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	text-align: center;
+	color: #afdbff;
+}
+.header__nav .nav-con .nav-linear4{
+	color:#ffffff;
+}
+
+
+
+/*banner*/
+.banner{
+	width: 100%;
+	height:386px;
+	background:url(../images/banner14.jpg) no-repeat center; 
+	margin-top:80px; 
+}
+
+
+
+/*新闻*/
+.cnt_all{
+	margin:20px auto; 
+}
+.cnt_all li{
+	background-color: #f5f5f5;
+	margin: 20px auto;
+}
+.cnt_all li:hover{
+	background-color: #ffffff;
+	box-shadow: 0px 2px 16px #cccccc;
+	transition: all .2s linear;
+}
+.cnt_all .cnt_box{
+   padding: 10px;
+   width: 890px;
+}
+.cnt_all .cnt_box img{
+	float: left;
+	width: 103px;
+	height: 83px;
+	overflow: hidden;
+}
+.cnt_all .cnt_box p{
+	float: left;
+	padding-left: 10px;
+}
+.cnt_title{
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	width: 750px;
+}
+.cnt_title .cnt_tip{
+	float: right;
+	font-size: 12px;
+	font-weight: normal;
+}
+.cnt_text{
+	display: block;
+	padding-top:10px;
+	width:750px;
+	height: 46px;
+	overflow: hidden;
+	color: #666;
+}
+
+
+
+
+
+
+/*底部*/
+.bottom{
+	background-color: #404040;
+	text-align: center;
+	padding: 10px 0;
+	color: #a8a8a8;
+}
+.bottom p{
+	padding: 10px 0;
+}
+.bottom p a{
+	color:#8e8e8e;
+	font-style: 12px;
+	padding: 0px 10px;
+	text-decoration: underline;
+}

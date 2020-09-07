@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <meta charset="UTF-8" /> 
+  <title>美式教科</title> 
+  <link rel="stylesheet" href="css/reset.css" /> 
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" /> 
+ </head>
+ <body> 
+  <div id="window" style=""> 
+   <div class="page page-front"> 
+    <div class="page-content"> 
+     <div class="input-row"> ------【】】【【】
+      <label class="label fadeIn">用户名</label> 
+      <input id="username" type="text" data-fyll="jack" class="input fadeIn delay1" /> 
+     </div> 
+     <div class="input-row"> 
+      <label class="label fadeIn delay2">密码</label> 
+      <input id="password" type="password" data-fyll="7894561230" class="input fadeIn delay3" /> 
+     </div> 
+     <div class="input-row perspective"  > 
+         <button id="submit" class="button load-btn fadeIn delay4"> <span class="default"><i class="ion-arrow-right-b"></i><a src='http://127.0.0.1:8080/html/教育.html'>登录</a></span> 
+       <div class="load-state"> 
+        <div class="ball"></div> 
+        <div class="ball"></div> 
+        <div class="ball"></div> 
+       </div> </button> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="page page-back"> 
+    <div class="page-content"> 
+     <img src="01f9ea56e282836ac72531cbe0233b.jpg@2o.jpg" class="avatar" /> 
+     <p class="welcome">欢迎回来，美式教科<a href="http://www.mycodes.net/" target="_blank"></a></p> 
+     <div class="perspective"> 
+      <button id= "enter" class="button inline trigger-anim-replay"><i class="ion-refresh"></i>进入</button> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="browser-warning hidden">
+  </div> 
+  <script type="text/javascript" src="js/jquery.js"></script> 
+     
+  <script type="text/javascript" src="js/fyll.js"></script> 
+  <script type="text/javascript" src="js/index.js"></script> 
+ <script>
+     $("#enter").click(function(){
+        window.location = "http://127.0.0.1:8080/html/教育.html"
+     })
+     </script> 
+ </body>
+</html>
