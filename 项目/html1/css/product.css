@@ -1,0 +1,182 @@
+  body{
+	background-color:#fff;
+	color: #666;
+}
+a{
+	transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+}
+.warp{
+	width: 1200px;
+	margin: 0 auto;
+	max-width: 1200px;
+	height: 100%;
+}
+.in-block{
+	display: inline-block;
+}
+
+/*头部*/
+.header{
+	width: 100%;
+	height: 80px;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background-color:#46a7f8;
+	position:fixed; 
+	z-index: 99;
+	top:0;
+	left: 0;
+}
+.logo{
+    width: 169px;
+    height: 44px;
+    background-color: red;
+    float: left;
+    background: url(../images/logo.png) no-repeat;
+    margin-top: 18px;
+}
+.header__nav{
+	float:right;
+	height: 80px;
+	line-height: 80px;
+}
+.header__nav .nav-con{
+	float: left;
+}
+.header__nav .nav-con .nav-linear{
+	position: relative;
+	display:inline-block;
+	margin: 0px 15px;
+	font-size: 15px;
+	outline:none;
+	transition:all 0.2s linear;
+	-moz-transition:all 0.2s linear;
+	-webkit-transition:all 0.2s linear;
+	text-align: center;
+	color: #afdbff;
+}
+.header__nav .nav-con .nav-linear2{
+	color:#ffffff;
+}
+
+
+
+
+
+/*banner*/
+.banner{
+	width:100%;
+	height: 386px;
+	margin: 0 auto;
+	background: url(../images/dfgsdf952.jpg) no-repeat;
+	float: left;
+	margin-top:80px; 
+}
+
+
+
+/*cnt*/
+.cnt{
+	clear: both;
+}
+.cnt .cnt_nav{
+	width: 1200px;
+	height: 442px;
+	border-bottom:1px solid #dbdbdb; 
+}
+.cnt .nav0{background: url(../images/img0.jpg) no-repeat right;}
+.cnt .nav1{background: url(../images/img9.png) no-repeat;}
+.cnt .nav2{background: url(../images/img10.png) no-repeat right;}
+.cnt .nav3{background: url(../images/img11.png) no-repeat;}
+.cnt .nav4{background: url(../images/img12.png) no-repeat right;}
+.cnt .nav5{background: url(../images/img13.png) no-repeat;}
+.cnt .nav6{background: url(../images/img14.png) no-repeat right;}
+.cnt .nav7{background: url(../images/img15.png) no-repeat;}
+.cnt .nav8{height:800px;background: url(../images/img16.png) no-repeat 628px 124px;}
+
+.cnt .cnt_nav p{
+	font-size:14px;
+	width: 600px;
+	display: block;
+}
+.cnt .cnt_nav .nav_rignt{
+	float: right;
+}
+.cnt .cnt_nav p .text1{
+	font-size: 18px;
+	display: block;
+	line-height: 48px;
+	color: #46a7f8;
+    font-weight: bold;
+}
+.cnt .cnt_nav .nav_heig0{padding-top:30px;}
+.cnt .cnt_nav .nav_heig1{padding-top:120px;}
+.cnt .cnt_nav .nav_heig2{padding-top:138px;}
+.cnt .cnt_nav .nav_heig3{padding-top:138px;}
+.cnt .cnt_nav .nav_heig4{padding-top:106px;}
+.cnt .cnt_nav .nav_heig5{padding-top:114px;}
+.cnt .cnt_nav .nav_heig6{padding-top:72px;}
+.cnt .cnt_nav .nav_heig7{padding-top:144px;}
+
+.cnt .cnt_nav .nav_icon{
+	display: inline-block;
+	width:48px;
+	height: 48px;
+	background: #f5f5f5;
+	float: left;
+	margin-right: 5px;
+}
+.cnt .cnt_nav .icon0{background:url(../images/icon-0.png) no-repeat center;}
+.cnt .cnt_nav .icon1{background:url(../images/icon-13.png) no-repeat center;}
+.cnt .cnt_nav .icon2{background:url(../images/icon-14.png) no-repeat center;}
+.cnt .cnt_nav .icon3{background:url(../images/icon-15.png) no-repeat center;}
+.cnt .cnt_nav .icon4{background:url(../images/icon-16.png) no-repeat center;}
+.cnt .cnt_nav .icon5{background:url(../images/icon-17.png) no-repeat center;}
+.cnt .cnt_nav .icon6{background:url(../images/icon-18.png) no-repeat center;}
+.cnt .cnt_nav .icon7{background:url(../images/icon-19.png) no-repeat center;}
+.cnt .cnt_nav .icon8{background:url(../images/icon-20.png) no-repeat center;}
+
+
+/*底部*/
+.bottom{
+	background-color: #404040;
+	text-align: center;
+	padding: 10px 0;
+	color: #a8a8a8;
+}
+.bottom p{
+	padding: 10px 0;
+}
+.bottom p a{
+	color:#8e8e8e;
+	font-style: 12px;
+	padding: 0px 10px;
+	text-decoration: underline;
+}
+
+
+
+/*2017/6/20 添加查看更多*/
+.more{
+	display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #47a7f8;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    background-color:#47a7f8; 
+}
+.more:hover{
+	border: 1px solid #1580da;
+    background-color: #1580da;
+    color: #fff;
+}
