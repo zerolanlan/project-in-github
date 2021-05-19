@@ -36,7 +36,7 @@
     "font-awesome": "^4.7.0",
     "@fortawesome/fontawesome-free": "^5.12.1",
     "jquery": "^3.3.1",
-    "codemirror": "^5.37.0",
+    "codemirror": "^5.58.2",
     "summernote": "^0.8.10",
     "bootstrap-table": "^1.18.0",
     "bootstrap-vue": "^2.15.0",
