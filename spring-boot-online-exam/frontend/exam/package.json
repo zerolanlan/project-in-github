@@ -41,7 +41,7 @@
     "bootstrap-table": "^1.18.0",
     "bootstrap-vue": "^2.15.0",
     "popper.js": "^1.16.1",
-    "tableexport.jquery.plugin": "^1.10.20"
+    "tableexport.jquery.plugin": "^1.25.0"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.2.5",
